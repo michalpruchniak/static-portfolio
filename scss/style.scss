@@ -10,13 +10,19 @@ $orange : #ecc424;
     border: 2px solid #c2faff;
   }
 }
+@font-face{
+  font-family: "Montserrat";
+  src: url('../fonts/Montserrat-Regular.otf');
+}
+@font-face{
+  font-family: "Oswald";
+  src: url('../fonts/Oswald-Bold.ttf');
+}
 html, body{
   overflow-x: hidden;
   font-family: Montserrat, Regular;
-  src: url('../fonts/Montserrat-Regular.otf');
   h1, h2{
-    font-family: Oswald, Bold;
-    src: url('../fonts/Oswald-Bold.tff');
+    font-family: Oswald;
   }
 }
 *{
